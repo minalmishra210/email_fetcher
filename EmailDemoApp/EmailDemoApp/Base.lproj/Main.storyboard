@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hG6-aP-7WJ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Email List View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="EmailListView" customModule="EmailApiFramework" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="-2"/>
+        </scene>
+        <!--Main Page View Controller-->
+        <scene sceneID="1pM-h3-GjR">
+            <objects>
+                <viewController id="hG6-aP-7WJ" customClass="MainPageViewController" customModule="EmailDemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yn2-YM-9iN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAs-k7-CO4">
+                                <rect key="frame" x="121.66666666666669" y="406" width="150" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Tpz-X9-Xo9"/>
+                                    <constraint firstAttribute="height" constant="40" id="efR-vT-RS6"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Call Package"/>
+                                <connections>
+                                    <action selector="callButtonClicked:" destination="hG6-aP-7WJ" eventType="touchUpInside" id="XkP-Aj-NZs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybb-Gt-0hb">
+                                <rect key="frame" x="20" y="788" width="353" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mw0-Br-4Gq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QAs-k7-CO4" firstAttribute="centerX" secondItem="Yn2-YM-9iN" secondAttribute="centerX" id="7Ao-2Y-U9p"/>
+                            <constraint firstItem="QAs-k7-CO4" firstAttribute="centerY" secondItem="Yn2-YM-9iN" secondAttribute="centerY" id="9C9-Cj-bIM"/>
+                            <constraint firstItem="mw0-Br-4Gq" firstAttribute="trailing" secondItem="ybb-Gt-0hb" secondAttribute="trailing" constant="20" id="A48-L1-DUF"/>
+                            <constraint firstItem="ybb-Gt-0hb" firstAttribute="leading" secondItem="mw0-Br-4Gq" secondAttribute="leading" constant="20" id="KQd-01-Fa1"/>
+                            <constraint firstItem="ybb-Gt-0hb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="QAs-k7-CO4" secondAttribute="bottom" constant="20" id="QRU-He-3qd"/>
+                            <constraint firstItem="mw0-Br-4Gq" firstAttribute="bottom" secondItem="ybb-Gt-0hb" secondAttribute="bottom" constant="30" id="lJE-36-CJS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="ybb-Gt-0hb" id="tUM-o8-til"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vhl-ko-UIg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-737" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

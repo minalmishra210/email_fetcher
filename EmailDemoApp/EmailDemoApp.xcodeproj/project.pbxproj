@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F925741C2C345946001205CF /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F925741B2C345946001205CF /* MainPageViewController.swift */; };
+		F92574242C3472D8001205CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92574232C3472D8001205CF /* SceneDelegate.swift */; };
+		F9EB0E762C33F0B6004B3C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EB0E752C33F0B6004B3C27 /* AppDelegate.swift */; };
+		F9EB0E7D2C33F0B6004B3C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0E7B2C33F0B6004B3C27 /* Main.storyboard */; };
+		F9EB0E7F2C33F0B8004B3C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0E7E2C33F0B8004B3C27 /* Assets.xcassets */; };
+		F9EB0E822C33F0B8004B3C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EB0E802C33F0B8004B3C27 /* LaunchScreen.storyboard */; };
+		F9EB0F1F2C33FA64004B3C27 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EB0EFF2C33F0F2004B3C27 /* Alamofire */; };
+		F9EB0F202C33FA64004B3C27 /* Alamofire in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9EB0EFF2C33F0F2004B3C27 /* Alamofire */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F9EB0F222C33FA65004B3C27 /* EmailApiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EB0EF72C33F0F2004B3C27 /* EmailApiFramework.framework */; };
+		F9EB0F232C33FA65004B3C27 /* EmailApiFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9EB0EF72C33F0F2004B3C27 /* EmailApiFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9EB0EF62C33F0F2004B3C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EB0E952C33F0F2004B3C27 /* EmailApiFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F9FE6A722C33C4A80090DA53;
+			remoteInfo = EmailApiFramework;
+		};
+		F9EB0EF82C33F0F2004B3C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EB0E952C33F0F2004B3C27 /* EmailApiFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F9FE6A7C2C33C4A80090DA53;
+			remoteInfo = EmailApiFrameworkTests;
+		};
+		F9EB0EFE2C33F0F2004B3C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EB0E992C33F0F2004B3C27 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
+		F9EB0F002C33F0F2004B3C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EB0E992C33F0F2004B3C27 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 085DBCE7DD98588B2ED103B1C1F36026;
+			remoteInfo = "Alamofire-Alamofire";
+		};
+		F9EB0F022C33F0F2004B3C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EB0E992C33F0F2004B3C27 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D004ADD0E5043CDCE5ED00C325E90660;
+			remoteInfo = "Pods-EmailApiFramework";
+		};
+		F9EB0F042C33F0F2004B3C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EB0E992C33F0F2004B3C27 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D29E1C31B71FE15693C238E0EE87C283;
+			remoteInfo = "Pods-EmailApiFramework-EmailApiFrameworkTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9EB0F212C33FA64004B3C27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F9EB0F202C33FA64004B3C27 /* Alamofire in Embed Frameworks */,
+				F9EB0F232C33FA65004B3C27 /* EmailApiFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F925741B2C345946001205CF /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		F92574232C3472D8001205CF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9EB0E722C33F0B6004B3C27 /* EmailDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EB0E752C33F0B6004B3C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9EB0E7C2C33F0B6004B3C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9EB0E7E2C33F0B8004B3C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9EB0E812C33F0B8004B3C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9EB0E832C33F0B8004B3C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EB0E8B2C33F0F2004B3C27 /* EmailApiFramework.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = EmailApiFramework.xcworkspace; sourceTree = "<group>"; };
+		F9EB0E8D2C33F0F2004B3C27 /* EmailApiFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailApiFrameworkTests.swift; sourceTree = "<group>"; };
+		F9EB0E8F2C33F0F2004B3C27 /* EmailApiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailApiFramework.h; sourceTree = "<group>"; };
+		F9EB0E902C33F0F2004B3C27 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		F9EB0E912C33F0F2004B3C27 /* EmailListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailListView.swift; sourceTree = "<group>"; };
+		F9EB0E922C33F0F2004B3C27 /* EmailApiFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EmailApiFramework.docc; sourceTree = "<group>"; };
+		F9EB0E932C33F0F2004B3C27 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		F9EB0E942C33F0F2004B3C27 /* ApiFrameworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiFrameworkError.swift; sourceTree = "<group>"; };
+		F9EB0E952C33F0F2004B3C27 /* EmailApiFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = EmailApiFramework.xcodeproj; sourceTree = "<group>"; };
+		F9EB0E992C33F0F2004B3C27 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		F9EB0E9D2C33F0F2004B3C27 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F9EB0EA02C33F0F2004B3C27 /* ParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoder.swift; sourceTree = "<group>"; };
+		F9EB0EA12C33F0F2004B3C27 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		F9EB0EA22C33F0F2004B3C27 /* Protected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protected.swift; sourceTree = "<group>"; };
+		F9EB0EA32C33F0F2004B3C27 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		F9EB0EA42C33F0F2004B3C27 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		F9EB0EA52C33F0F2004B3C27 /* DataStreamRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStreamRequest.swift; sourceTree = "<group>"; };
+		F9EB0EA62C33F0F2004B3C27 /* DownloadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadRequest.swift; sourceTree = "<group>"; };
+		F9EB0EA72C33F0F2004B3C27 /* WebSocketRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketRequest.swift; sourceTree = "<group>"; };
+		F9EB0EA82C33F0F2004B3C27 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F9EB0EA92C33F0F2004B3C27 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		F9EB0EAA2C33F0F2004B3C27 /* RequestTaskMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTaskMap.swift; sourceTree = "<group>"; };
+		F9EB0EAB2C33F0F2004B3C27 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		F9EB0EAC2C33F0F2004B3C27 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		F9EB0EAD2C33F0F2004B3C27 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		F9EB0EAE2C33F0F2004B3C27 /* HTTPHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		F9EB0EAF2C33F0F2004B3C27 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		F9EB0EB02C33F0F2004B3C27 /* UploadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadRequest.swift; sourceTree = "<group>"; };
+		F9EB0EB12C33F0F2004B3C27 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		F9EB0EB32C33F0F2004B3C27 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		F9EB0EB42C33F0F2004B3C27 /* RequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestInterceptor.swift; sourceTree = "<group>"; };
+		F9EB0EB52C33F0F2004B3C27 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		F9EB0EB62C33F0F2004B3C27 /* Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency.swift; sourceTree = "<group>"; };
+		F9EB0EB72C33F0F2004B3C27 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedResponseHandler.swift; sourceTree = "<group>"; };
+		F9EB0EB82C33F0F2004B3C27 /* RetryPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryPolicy.swift; sourceTree = "<group>"; };
+		F9EB0EB92C33F0F2004B3C27 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		F9EB0EBA2C33F0F2004B3C27 /* RedirectHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedirectHandler.swift; sourceTree = "<group>"; };
+		F9EB0EBB2C33F0F2004B3C27 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		F9EB0EBC2C33F0F2004B3C27 /* AlamofireExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireExtended.swift; sourceTree = "<group>"; };
+		F9EB0EBD2C33F0F2004B3C27 /* MultipartUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartUpload.swift; sourceTree = "<group>"; };
+		F9EB0EBE2C33F0F2004B3C27 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		F9EB0EBF2C33F0F2004B3C27 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		F9EB0EC02C33F0F2004B3C27 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		F9EB0EC12C33F0F2004B3C27 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		F9EB0EC22C33F0F2004B3C27 /* RequestCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCompression.swift; sourceTree = "<group>"; };
+		F9EB0EC32C33F0F2004B3C27 /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		F9EB0EC52C33F0F2004B3C27 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		F9EB0EC62C33F0F2004B3C27 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		F9EB0EC72C33F0F2004B3C27 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		F9EB0EC82C33F0F2004B3C27 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		F9EB0EC92C33F0F2004B3C27 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		F9EB0ECA2C33F0F2004B3C27 /* Result+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Alamofire.swift"; sourceTree = "<group>"; };
+		F9EB0ECB2C33F0F2004B3C27 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		F9EB0ECC2C33F0F2004B3C27 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F9EB0ECD2C33F0F2004B3C27 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F9EB0ED02C33F0F2004B3C27 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		F9EB0ED12C33F0F2004B3C27 /* Alamofire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		F9EB0ED22C33F0F2004B3C27 /* Alamofire-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		F9EB0ED32C33F0F2004B3C27 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		F9EB0ED42C33F0F2004B3C27 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		F9EB0ED52C33F0F2004B3C27 /* Alamofire.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		F9EB0ED62C33F0F2004B3C27 /* ResourceBundle-Alamofire-Alamofire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Alamofire-Alamofire-Info.plist"; sourceTree = "<group>"; };
+		F9EB0ED72C33F0F2004B3C27 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F9EB0ED92C33F0F2004B3C27 /* Pods-EmailApiFramework.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EmailApiFramework.modulemap"; sourceTree = "<group>"; };
+		F9EB0EDA2C33F0F2004B3C27 /* Pods-EmailApiFramework.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-EmailApiFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		F9EB0EDB2C33F0F2004B3C27 /* Pods-EmailApiFramework.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-EmailApiFramework.release.xcconfig"; sourceTree = "<group>"; };
+		F9EB0EDC2C33F0F2004B3C27 /* Pods-EmailApiFramework-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-EmailApiFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9EB0EDD2C33F0F2004B3C27 /* Pods-EmailApiFramework-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-EmailApiFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9EB0EDE2C33F0F2004B3C27 /* Pods-EmailApiFramework-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-EmailApiFramework-umbrella.h"; sourceTree = "<group>"; };
+		F9EB0EDF2C33F0F2004B3C27 /* Pods-EmailApiFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-EmailApiFramework-Info.plist"; sourceTree = "<group>"; };
+		F9EB0EE02C33F0F2004B3C27 /* Pods-EmailApiFramework-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmailApiFramework-dummy.m"; sourceTree = "<group>"; };
+		F9EB0EE22C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9EB0EE32C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EmailApiFramework-EmailApiFrameworkTests.modulemap"; sourceTree = "<group>"; };
+		F9EB0EE42C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		F9EB0EE52C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-umbrella.h"; sourceTree = "<group>"; };
+		F9EB0EE62C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		F9EB0EE72C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-EmailApiFramework-EmailApiFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9EB0EE82C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		F9EB0EE92C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks.sh"; sourceTree = "<group>"; };
+		F9EB0EEA2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-EmailApiFramework-EmailApiFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9EB0EEB2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-dummy.m"; sourceTree = "<group>"; };
+		F9EB0EEC2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		F9EB0EED2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		F9EB0EEE2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-EmailApiFramework-EmailApiFrameworkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9EB0EEF2C33F0F2004B3C27 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		F9EB0EF22C33F0F2004B3C27 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F9EB0EF32C33F0F2004B3C27 /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9EB0E6F2C33F0B6004B3C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EB0F1F2C33FA64004B3C27 /* Alamofire in Frameworks */,
+				F9EB0F222C33FA65004B3C27 /* EmailApiFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9EB0E692C33F0B6004B3C27 = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E742C33F0B6004B3C27 /* EmailDemoApp */,
+				F9EB0E732C33F0B6004B3C27 /* Products */,
+				F9EB0E892C33F0F2004B3C27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9EB0E732C33F0B6004B3C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E722C33F0B6004B3C27 /* EmailDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9EB0E742C33F0B6004B3C27 /* EmailDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E752C33F0B6004B3C27 /* AppDelegate.swift */,
+				F925741B2C345946001205CF /* MainPageViewController.swift */,
+				F92574232C3472D8001205CF /* SceneDelegate.swift */,
+				F9EB0E7B2C33F0B6004B3C27 /* Main.storyboard */,
+				F9EB0E7E2C33F0B8004B3C27 /* Assets.xcassets */,
+				F9EB0E802C33F0B8004B3C27 /* LaunchScreen.storyboard */,
+				F9EB0E832C33F0B8004B3C27 /* Info.plist */,
+			);
+			path = EmailDemoApp;
+			sourceTree = "<group>";
+		};
+		F9EB0E892C33F0F2004B3C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E8A2C33F0F2004B3C27 /* EmailApiFramework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9EB0E8A2C33F0F2004B3C27 /* EmailApiFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E8B2C33F0F2004B3C27 /* EmailApiFramework.xcworkspace */,
+				F9EB0E8C2C33F0F2004B3C27 /* EmailApiFrameworkTests */,
+				F9EB0E8E2C33F0F2004B3C27 /* EmailApiFramework */,
+				F9EB0E952C33F0F2004B3C27 /* EmailApiFramework.xcodeproj */,
+				F9EB0E982C33F0F2004B3C27 /* Pods */,
+				F9EB0EF22C33F0F2004B3C27 /* Podfile */,
+				F9EB0EF32C33F0F2004B3C27 /* Podfile.lock */,
+			);
+			name = EmailApiFramework;
+			path = ../EmailApiFramework;
+			sourceTree = "<group>";
+		};
+		F9EB0E8C2C33F0F2004B3C27 /* EmailApiFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E8D2C33F0F2004B3C27 /* EmailApiFrameworkTests.swift */,
+			);
+			path = EmailApiFrameworkTests;
+			sourceTree = "<group>";
+		};
+		F9EB0E8E2C33F0F2004B3C27 /* EmailApiFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E8F2C33F0F2004B3C27 /* EmailApiFramework.h */,
+				F9EB0E902C33F0F2004B3C27 /* ApiManager.swift */,
+				F9EB0E912C33F0F2004B3C27 /* EmailListView.swift */,
+				F9EB0E922C33F0F2004B3C27 /* EmailApiFramework.docc */,
+				F9EB0E932C33F0F2004B3C27 /* Activity.swift */,
+				F9EB0E942C33F0F2004B3C27 /* ApiFrameworkError.swift */,
+			);
+			path = EmailApiFramework;
+			sourceTree = "<group>";
+		};
+		F9EB0E962C33F0F2004B3C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0EF72C33F0F2004B3C27 /* EmailApiFramework.framework */,
+				F9EB0EF92C33F0F2004B3C27 /* EmailApiFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9EB0E982C33F0F2004B3C27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E992C33F0F2004B3C27 /* Pods.xcodeproj */,
+				F9EB0E9C2C33F0F2004B3C27 /* Alamofire */,
+				F9EB0ECE2C33F0F2004B3C27 /* Target Support Files */,
+				F9EB0EEF2C33F0F2004B3C27 /* Manifest.lock */,
+				F9EB0EF02C33F0F2004B3C27 /* Local Podspecs */,
+				F9EB0EF12C33F0F2004B3C27 /* Headers */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9EB0E9A2C33F0F2004B3C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0EFF2C33F0F2004B3C27 /* Alamofire */,
+				F9EB0F012C33F0F2004B3C27 /* Alamofire-Alamofire */,
+				F9EB0F032C33F0F2004B3C27 /* Pods-EmailApiFramework */,
+				F9EB0F052C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9EB0E9C2C33F0F2004B3C27 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E9D2C33F0F2004B3C27 /* LICENSE */,
+				F9EB0E9E2C33F0F2004B3C27 /* Source */,
+				F9EB0ECD2C33F0F2004B3C27 /* README.md */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		F9EB0E9E2C33F0F2004B3C27 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0E9F2C33F0F2004B3C27 /* Core */,
+				F9EB0EB22C33F0F2004B3C27 /* Features */,
+				F9EB0EC42C33F0F2004B3C27 /* Extensions */,
+				F9EB0ECB2C33F0F2004B3C27 /* Alamofire.swift */,
+				F9EB0ECC2C33F0F2004B3C27 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F9EB0E9F2C33F0F2004B3C27 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0EA02C33F0F2004B3C27 /* ParameterEncoder.swift */,
+				F9EB0EA12C33F0F2004B3C27 /* Session.swift */,
+				F9EB0EA22C33F0F2004B3C27 /* Protected.swift */,
+				F9EB0EA32C33F0F2004B3C27 /* ParameterEncoding.swift */,
+				F9EB0EA42C33F0F2004B3C27 /* AFError.swift */,
+				F9EB0EA52C33F0F2004B3C27 /* DataStreamRequest.swift */,
+				F9EB0EA62C33F0F2004B3C27 /* DownloadRequest.swift */,
+				F9EB0EA72C33F0F2004B3C27 /* WebSocketRequest.swift */,
+				F9EB0EA82C33F0F2004B3C27 /* HTTPMethod.swift */,
+				F9EB0EA92C33F0F2004B3C27 /* URLConvertible+URLRequestConvertible.swift */,
+				F9EB0EAA2C33F0F2004B3C27 /* RequestTaskMap.swift */,
+				F9EB0EAB2C33F0F2004B3C27 /* Notifications.swift */,
+				F9EB0EAC2C33F0F2004B3C27 /* Response.swift */,
+				F9EB0EAD2C33F0F2004B3C27 /* Request.swift */,
+				F9EB0EAE2C33F0F2004B3C27 /* HTTPHeaders.swift */,
+				F9EB0EAF2C33F0F2004B3C27 /* DataRequest.swift */,
+				F9EB0EB02C33F0F2004B3C27 /* UploadRequest.swift */,
+				F9EB0EB12C33F0F2004B3C27 /* SessionDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F9EB0EB22C33F0F2004B3C27 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0EB32C33F0F2004B3C27 /* MultipartFormData.swift */,
+				F9EB0EB42C33F0F2004B3C27 /* RequestInterceptor.swift */,
+				F9EB0EB52C33F0F2004B3C27 /* NetworkReachabilityManager.swift */,
+				F9EB0EB62C33F0F2004B3C27 /* Concurrency.swift */,
+				F9EB0EB72C33F0F2004B3C27 /* CachedResponseHandler.swift */,
+				F9EB0EB82C33F0F2004B3C27 /* RetryPolicy.swift */,
+				F9EB0EB92C33F0F2004B3C27 /* ServerTrustEvaluation.swift */,
+				F9EB0EBA2C33F0F2004B3C27 /* RedirectHandler.swift */,
+				F9EB0EBB2C33F0F2004B3C27 /* URLEncodedFormEncoder.swift */,
+				F9EB0EBC2C33F0F2004B3C27 /* AlamofireExtended.swift */,
+				F9EB0EBD2C33F0F2004B3C27 /* MultipartUpload.swift */,
+				F9EB0EBE2C33F0F2004B3C27 /* Validation.swift */,
+				F9EB0EBF2C33F0F2004B3C27 /* AuthenticationInterceptor.swift */,
+				F9EB0EC02C33F0F2004B3C27 /* EventMonitor.swift */,
+				F9EB0EC12C33F0F2004B3C27 /* Combine.swift */,
+				F9EB0EC22C33F0F2004B3C27 /* RequestCompression.swift */,
+				F9EB0EC32C33F0F2004B3C27 /* ResponseSerialization.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F9EB0EC42C33F0F2004B3C27 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0EC52C33F0F2004B3C27 /* URLSessionConfiguration+Alamofire.swift */,
+				F9EB0EC62C33F0F2004B3C27 /* OperationQueue+Alamofire.swift */,
+				F9EB0EC72C33F0F2004B3C27 /* StringEncoding+Alamofire.swift */,
+				F9EB0EC82C33F0F2004B3C27 /* DispatchQueue+Alamofire.swift */,
+				F9EB0EC92C33F0F2004B3C27 /* URLRequest+Alamofire.swift */,
+				F9EB0ECA2C33F0F2004B3C27 /* Result+Alamofire.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F9EB0ECE2C33F0F2004B3C27 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0ECF2C33F0F2004B3C27 /* Alamofire */,
+				F9EB0ED82C33F0F2004B3C27 /* Pods-EmailApiFramework */,
+				F9EB0EE12C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		F9EB0ECF2C33F0F2004B3C27 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0ED02C33F0F2004B3C27 /* Alamofire.release.xcconfig */,
+				F9EB0ED12C33F0F2004B3C27 /* Alamofire-Info.plist */,
+				F9EB0ED22C33F0F2004B3C27 /* Alamofire-dummy.m */,
+				F9EB0ED32C33F0F2004B3C27 /* Alamofire.debug.xcconfig */,
+				F9EB0ED42C33F0F2004B3C27 /* Alamofire-umbrella.h */,
+				F9EB0ED52C33F0F2004B3C27 /* Alamofire.modulemap */,
+				F9EB0ED62C33F0F2004B3C27 /* ResourceBundle-Alamofire-Alamofire-Info.plist */,
+				F9EB0ED72C33F0F2004B3C27 /* Alamofire-prefix.pch */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		F9EB0ED82C33F0F2004B3C27 /* Pods-EmailApiFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0ED92C33F0F2004B3C27 /* Pods-EmailApiFramework.modulemap */,
+				F9EB0EDA2C33F0F2004B3C27 /* Pods-EmailApiFramework.debug.xcconfig */,
+				F9EB0EDB2C33F0F2004B3C27 /* Pods-EmailApiFramework.release.xcconfig */,
+				F9EB0EDC2C33F0F2004B3C27 /* Pods-EmailApiFramework-acknowledgements.markdown */,
+				F9EB0EDD2C33F0F2004B3C27 /* Pods-EmailApiFramework-acknowledgements.plist */,
+				F9EB0EDE2C33F0F2004B3C27 /* Pods-EmailApiFramework-umbrella.h */,
+				F9EB0EDF2C33F0F2004B3C27 /* Pods-EmailApiFramework-Info.plist */,
+				F9EB0EE02C33F0F2004B3C27 /* Pods-EmailApiFramework-dummy.m */,
+			);
+			path = "Pods-EmailApiFramework";
+			sourceTree = "<group>";
+		};
+		F9EB0EE12C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB0EE22C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-acknowledgements.plist */,
+				F9EB0EE32C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests.modulemap */,
+				F9EB0EE42C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Debug-output-files.xcfilelist */,
+				F9EB0EE52C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-umbrella.h */,
+				F9EB0EE62C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Release-input-files.xcfilelist */,
+				F9EB0EE72C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests.debug.xcconfig */,
+				F9EB0EE82C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Release-output-files.xcfilelist */,
+				F9EB0EE92C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks.sh */,
+				F9EB0EEA2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests.release.xcconfig */,
+				F9EB0EEB2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-dummy.m */,
+				F9EB0EEC2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-frameworks-Debug-input-files.xcfilelist */,
+				F9EB0EED2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-Info.plist */,
+				F9EB0EEE2C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests-acknowledgements.markdown */,
+			);
+			path = "Pods-EmailApiFramework-EmailApiFrameworkTests";
+			sourceTree = "<group>";
+		};
+		F9EB0EF02C33F0F2004B3C27 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		F9EB0EF12C33F0F2004B3C27 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9EB0E712C33F0B6004B3C27 /* EmailDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EB0E862C33F0B8004B3C27 /* Build configuration list for PBXNativeTarget "EmailDemoApp" */;
+			buildPhases = (
+				F9EB0E6E2C33F0B6004B3C27 /* Sources */,
+				F9EB0E6F2C33F0B6004B3C27 /* Frameworks */,
+				F9EB0E702C33F0B6004B3C27 /* Resources */,
+				F9EB0F212C33FA64004B3C27 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailDemoApp;
+			productName = EmailDemoApp;
+			productReference = F9EB0E722C33F0B6004B3C27 /* EmailDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9EB0E6A2C33F0B6004B3C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F9EB0E712C33F0B6004B3C27 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F9EB0E6D2C33F0B6004B3C27 /* Build configuration list for PBXProject "EmailDemoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9EB0E692C33F0B6004B3C27;
+			productRefGroup = F9EB0E732C33F0B6004B3C27 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F9EB0E962C33F0F2004B3C27 /* Products */;
+					ProjectRef = F9EB0E952C33F0F2004B3C27 /* EmailApiFramework.xcodeproj */;
+				},
+				{
+					ProductGroup = F9EB0E9A2C33F0F2004B3C27 /* Products */;
+					ProjectRef = F9EB0E992C33F0F2004B3C27 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F9EB0E712C33F0B6004B3C27 /* EmailDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F9EB0EF72C33F0F2004B3C27 /* EmailApiFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EmailApiFramework.framework;
+			remoteRef = F9EB0EF62C33F0F2004B3C27 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9EB0EF92C33F0F2004B3C27 /* EmailApiFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EmailApiFrameworkTests.xctest;
+			remoteRef = F9EB0EF82C33F0F2004B3C27 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9EB0EFF2C33F0F2004B3C27 /* Alamofire */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = Alamofire;
+			path = Alamofire.framework;
+			remoteRef = F9EB0EFE2C33F0F2004B3C27 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9EB0F012C33F0F2004B3C27 /* Alamofire-Alamofire */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			name = "Alamofire-Alamofire";
+			path = Alamofire.bundle;
+			remoteRef = F9EB0F002C33F0F2004B3C27 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9EB0F032C33F0F2004B3C27 /* Pods-EmailApiFramework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-EmailApiFramework";
+			path = Pods_EmailApiFramework.framework;
+			remoteRef = F9EB0F022C33F0F2004B3C27 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F9EB0F052C33F0F2004B3C27 /* Pods-EmailApiFramework-EmailApiFrameworkTests */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-EmailApiFramework-EmailApiFrameworkTests";
+			path = Pods_EmailApiFramework_EmailApiFrameworkTests.framework;
+			remoteRef = F9EB0F042C33F0F2004B3C27 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9EB0E702C33F0B6004B3C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EB0E822C33F0B8004B3C27 /* LaunchScreen.storyboard in Resources */,
+				F9EB0E7F2C33F0B8004B3C27 /* Assets.xcassets in Resources */,
+				F9EB0E7D2C33F0B6004B3C27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9EB0E6E2C33F0B6004B3C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F925741C2C345946001205CF /* MainPageViewController.swift in Sources */,
+				F9EB0E762C33F0B6004B3C27 /* AppDelegate.swift in Sources */,
+				F92574242C3472D8001205CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9EB0E7B2C33F0B6004B3C27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9EB0E7C2C33F0B6004B3C27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9EB0E802C33F0B8004B3C27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9EB0E812C33F0B8004B3C27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9EB0E842C33F0B8004B3C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9EB0E852C33F0B8004B3C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9EB0E872C33F0B8004B3C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 392X8DM9B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmailDemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cegde.collection.EmailDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9EB0E882C33F0B8004B3C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 392X8DM9B3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmailDemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cegde.collection.EmailDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9EB0E6D2C33F0B6004B3C27 /* Build configuration list for PBXProject "EmailDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EB0E842C33F0B8004B3C27 /* Debug */,
+				F9EB0E852C33F0B8004B3C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EB0E862C33F0B8004B3C27 /* Build configuration list for PBXNativeTarget "EmailDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EB0E872C33F0B8004B3C27 /* Debug */,
+				F9EB0E882C33F0B8004B3C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9EB0E6A2C33F0B6004B3C27 /* Project object */;
+}
